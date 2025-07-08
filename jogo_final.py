@@ -296,7 +296,7 @@ class Personagem:
         return perguntas[nivel]
 
     def obtem_pergunta(self):
-        """Retorna um pergunta com as respostas embaralhadas"""
+        """Função para obter a pergunta"""
         pergunta = choice(self.perguntas)
 
         return pergunta
